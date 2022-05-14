@@ -1,0 +1,182 @@
+html {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  color: #0a3871;
+  font-family: "Inter";
+  background-color: #f3f5fc;
+}
+
+body {
+  margin: 0;
+  box-sizing: content-box;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+button {
+  text-align: center;
+  width: 100%;
+}
+
+textarea {
+  font-size: 25px;
+  width: 90%;
+  border-color: transparent;
+  background-color: #f3f5fc;
+  border-width: 0;
+  outline: none;
+  border-radius: 5px;
+  color: #0a3871;
+}
+
+textarea:focus {
+  border: 1px solid #0a3871;
+}
+
+#frame1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#frame2 {
+  display: flex;
+  justify-content: center;
+}
+
+#frame3 {
+  margin-top: 1rem;
+}
+
+#frame4 {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  justify-content: center;
+}
+
+#frame5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  height: 93vh;
+  padding: 0 1rem 0 1rem;
+}
+
+#frame7 {
+  margin-top: 2rem;
+  padding-left: 3rem;
+}
+
+#frame8 {
+  margin: 0;
+}
+
+#frame8 p {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: #343a40;
+}
+
+#frame9 {
+  width: 350px;
+  margin-top: 1rem;
+}
+
+#frame9 p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #495057;
+}
+
+#button-left {
+  padding: 24px;
+  gap: 8px;
+  height: 67px;
+  background: #0a3871;
+  border-radius: 24px;
+  color: #ffffff;
+}
+
+#button-rigth {
+  padding: 24px;
+  gap: 8px;
+  height: 67px;
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+}
+
+#frame6 {
+  display: flex;
+  gap: 1rem;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1536px) {
+  main {
+    max-width: 1536px;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1024px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  #frame1 {
+    padding: 0 1rem 0 1rem;
+  }
+
+  #frame4 {
+    padding: 0;
+  }
+
+  #frame7 {
+    padding-left: 0;
+  }
+
+  #frame5 {
+    margin: 1rem 1rem 0 1rem;
+  }
+
+  #frame2 {
+    display: block;
+  }
+
+  #frame2 {
+    width: 100%;
+  }
+}
+
+main {
+  width: 100%;
+}
